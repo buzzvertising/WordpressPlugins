@@ -1,0 +1,112 @@
+.rolda-causes .cause-content {
+	max-width: 55%;
+	float: left;
+	margin-top: 760px;
+	background-color: #FFF;
+	padding:2%;
+}
+.rolda-causes .cause-content:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.rolda-causes .cause-message {
+	padding:2%;
+	float: left;
+	margin-top: 15px;
+	background-color: #FFF;
+	box-shadow: 0px 0px 5px #888;
+}
+
+.rolda-causes .cause-cta-box{
+	padding:2%;
+	max-width: 40%;
+	float: right;
+	margin-top: 300px;
+	background-color: #FFF;
+	box-shadow: 0px 0px 7px #333;
+}
+
+
+.rolda-causes .form-item, .form-actions {
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+.rolda-causes input[type="text"], .rolda-causes input[type="email"], .rolda-causes input[type="number"], .rolda-causes input[type="password"], .rolda-causes input[type="search"], .rolda-causes .form-text input, .rolda-causes .form-type-password input, .rolda-causes select, .rolda-causes textarea, .rolda-causes .webform-component-select .selecter .selecter-selected {
+	width: 94%;
+	background-color: #efefef;
+	border: 1px solid #c3c3c3;
+	-webkit-border-radius: 0;
+	-khtml-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	padding: 0.5em 3%;
+	margin-bottom: 0;
+	font-size: 120%;
+	font-family: Arvo,Georgia,Times,"Times New Roman",serif;
+	font-weight: normal;
+	color: #363636;
+}
+
+
+.rolda-causes label, .rolda-causes .content .picker .picker-label {
+	font-size: 0.8667em;
+	line-height: 1.6923em;
+	margin-bottom: 1.6923em;
+	display: block;
+	margin-bottom: 0;
+	color: #363636;
+	font-family: Arvo,Georgia,Times,"Times New Roman",serif;
+	font-weight: normal;
+}
+
+.rolda-causes .url-textfield {
+	display: none !important;
+}
+
+
+.rolda-causes input[type="submit"]{
+background: #d23428;
+color: #efefef;
+}
+
+.rolda-causes input[type="submit"]{
+background: #c6170a;
+background-clip: padding-box;
+display: block;
+padding: 0.79687em 1.5em;
+width: 100%;
+font-size: 1.3333em;
+line-height: 1.1em;
+margin-bottom: 1.1em;
+font-weight: normal;
+font-family: Arvo,Georgia,Times,"Times New Roman",serif;
+color: #efefef;
+text-shadow: #951108 1px 1px 1px,#951108 -1px 1px 1px;
+border: 4px solid white;
+-webkit-border-radius: 1.57031em;
+-khtml-border-radius: 1.57031em;
+-moz-border-radius: 1.57031em;
+-o-border-radius: 1.57031em;
+border-radius: 1.57031em;
+-webkit-box-shadow: 0px 0px 2px #9da9af;
+-moz-box-shadow: 0px 0px 2px #9da9af;
+box-shadow: 0px 0px 2px #9da9af;
+}
+
+.working {
+	margin: 0 auto;
+	padding: 0px;
+	background: url('../images/working.gif') transparent no-repeat;
+	height: 60px;
+	width: 60px;
+}
+
+.hide {
+	display:none !important;
+}
+
+

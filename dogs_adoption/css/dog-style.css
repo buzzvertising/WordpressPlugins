@@ -1,0 +1,333 @@
+﻿/* Define Colors */
+.color-FFC299 { background-color: #FFC299; }
+
+.color-FFD699 { background-color: #FFD699; }
+
+.color-FFEB99 { background-color: #FFEB99; }
+
+.color-FFFF99 { background-color: #FFFF99; }
+
+.color-DCF593 { background-color: #DCF593; }
+
+.color-8DEB8D { background-color: #8DEB8D; }
+
+.color-8DD3EB { background-color: #8DD3EB; }
+
+.color-8DB4EB { background-color: #8DB4EB; } /* light color */
+.color-2B62AF { background-color: #2B62AF; } /* dark color */
+
+.color-9C8DEB { background-color: #9C8DEB; }
+
+
+#donateextraform input[type=text],input.text, input.title, textarea, select { background-color:#fff; border:1px solid #bbb; padding: 2px; color: #4e4e4e; }
+#donateextraform input[type=text]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus { border-color:#2D3940; color: #3e3e3e; }
+#donateextraform input[type=text], input.text, input.title, textarea, select { margin:0.5em 0; }
+#donateextraform textarea { padding: 4px; }
+
+#donateextraform #amount { width:55px;}
+#donateextraform #p3 { width: 23px !important; text-align: right;}
+#donateextraform #srt { width: 23px !important; text-align: right;}
+#donateextraform .submit input{ border:none;}
+
+
+.generic{
+	float:left;
+}
+
+/* All dogs layout*/
+
+
+.dogs{
+}
+
+.entry-header{
+	float: left;
+	position: relative;
+	margin: 0 1px 1px 0;
+}
+
+.entry-header.normal{
+	max-width:312px;
+}
+
+.entry-header.small{
+	max-width:181px;
+	margin: 0 3px 3px 0;
+}
+
+.entry-header.small .dog-list-name{
+
+	font-size: 20px;
+}
+
+.dogs-male{
+	border-bottom: 8px solid lightblue;
+}
+
+.dogs-female{
+	border-bottom: 8px solid pink;
+}
+
+.error-icon{
+	background: url(error-icon.png) no-repeat;
+	padding: 2px 14px 0;
+}
+
+.dog-list {
+}
+.dog-list-picture{
+}
+.dog-list-name{
+	position:absolute;
+	padding-left: 36px;
+	bottom: 35px;
+	left: 10px;
+	font-size: 27px;
+	text-shadow: 1px 1px 1px rgba(73, 73, 73, 0.8), 3px 3px 6px rgba(0, 45, 114, 0.26);
+}
+
+.dog-reserved:before{
+    content: url(reserved_stamp.png);
+	position: absolute;
+	top: -25px;
+	right: -25px;
+	z-index: 10000;
+}
+.dog-adopted:before{
+    content: url(adopted_stamp.png);
+	position: absolute;
+	top: -25px;
+	right: -25px;
+	z-index: 10000;
+}
+
+.small .dog-reserved:before{
+    content: url(reserved_stamp_small.png);
+	position: absolute;
+	top: -9px;
+	right: -11px;
+	z-index: 10000;
+}
+.small .dog-adopted:before{
+    content: url(adopted_stamp_small.png);
+	position: absolute;
+	top: -9px;
+	right: -11px;
+	z-index: 10000;
+}
+
+.dog-single-reserved:before{
+    content: url(reserved_stamp_small.png);
+	position: absolute;
+	top: -26px;
+	left: -72px;
+	z-index: 10000;
+}
+.dog-single-adopted:before{
+    content: url(adopted_stamp_small.png);
+	position: absolute;
+	top: -26px;
+	left: -72px;
+	z-index: 10000;
+}
+
+
+.dog-list-name a{
+	color: white !important;
+}
+
+.dog-list-age{
+	position:absolute;
+	bottom: 15px;
+	left: 49px;
+	color: white;
+	font-size: 17px;
+	text-shadow: 1px 1px 1px rgba(73, 73, 73, 0.8), 3px 3px 6px rgba(0, 45, 114, 0.26);
+
+}
+
+.dog-list-age a{
+	color: white !important;
+}
+
+
+.dog-male:before{
+    content: url(male.png);
+	position: absolute;
+	top: -18px;
+	left: -7px;
+}
+
+
+.dog-female:before{
+    content: url(female.png);
+	position: absolute;
+	top: -8px;
+	left: -7px;
+}
+
+/* page layout */
+
+
+.box{
+	width:100%;
+}
+
+.box .toggle-alert{
+	display:none;
+}
+
+.title_box {
+	font-size: 18px;
+	line-height: 22px;
+	height: 35px;
+	width:100%;
+	margin-bottom: 10px;
+}
+
+.dog_name{
+	font-size: 27px;
+	margin-bottom:20px;
+	float:left;
+}
+
+.dog_info{
+	font-size: 16px;
+	float:right;
+}
+
+.content-box{
+}
+
+.dog-updates{
+	padding: 10px 0 0;
+}
+
+.dog-description{
+	padding-top: 10px;
+}
+
+
+.dog-icons {
+	float:left;
+	padding: 6px;
+}
+
+.dog-icons  p{
+	font-weight: normal;
+	text-align: center;
+	font-style: oblique;
+	font-size: 14px;
+	width: 82px;
+}
+
+.font-white{
+	color:white;
+}
+
+.font-black{
+	color: black;
+}
+
+.dog-entry-header{
+	float:left;
+	width: 100%;
+}
+
+/*Donate now boxes */
+
+
+#content-boxes-1 article.col{background-color:#F5F5F5 !important;}
+#content-boxes-1 .fontawesome-icon.circle-yes{color:#ffffff !important;background-color:#1a80b6 !important;border:1px solid lightgrey !important;}
+
+
+.give-now-button {
+	margin: 25px 0 0 0;
+}
+.no-account {
+	font-variant: small-caps;
+	padding: 5px 0px;
+	font-size: 0.9em;
+}
+
+.gift h2:after{
+	display: block;
+	content: "";
+	width: 32px;
+	height: 32px;
+	background: transparent url('gift.png') no-repeat;
+	margin: -71px 0 0 252px;
+}
+
+.pack-description ul{
+	list-style-type: none;
+	height: 80px;
+	padding:0px;
+	font-style: italic;
+}
+
+.sponsor-me {
+	font-size: 16px;
+	text-align: center;
+	padding: 10px 0 0;
+}
+
+.gift-info{
+	width:100%
+}
+.gift-picture{
+	float: left;
+	margin: 2px;
+	padding: 2px;
+	border: 1px solid #1a80b6;
+}
+
+.gift-title{
+	font-size: 20px;
+	float: left;
+	padding: 0px 0px 0px 15px;
+}
+
+.gift-subtitle{
+	float: left;
+	padding: 0px 0px 15px 15px;
+}
+
+.big-font{
+	font-size: 20px;
+}
+
+
+.no-comments{
+	display:none;
+}
+
+/*-----------------------------------------*/
+/*-------------- hall of fame -------------*/
+/*-----------------------------------------*/
+
+figure.halloffame {
+	width: 364px;
+	position: relative;
+	margin: auto;
+	border-top: 1px dotted #0098d8;
+	border-bottom: 1px dotted #0098d8;
+}
+
+figure.halloffame img {
+	float: left;
+	margin: 10px;
+	display: block;
+	max-width: 97%;
+	border: 1px solid #999;
+	padding: 5px;
+}
+
+
+figure.halloffame figcaption {
+	clear: left;
+	margin: .75em 0;
+	text-align: center;
+	font-style: italic;
+	line-height: 1.5em;
+}
